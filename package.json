@@ -1,5 +1,5 @@
 {
-	"name": "mapgen",
+	"name": "ksp-mapgen",
 	"version": "0.0.1",
 	"main": "index.js",
 	"repository": "https://github.com/romw314/KSP-1-1-41-5-mapgen",
