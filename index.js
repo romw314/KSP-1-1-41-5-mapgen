@@ -5,7 +5,7 @@ function mapgen(width, height) {
 			if (x === width - 1 && y === height - 1)
 				result += '.';
 			else
-				result += ['M', 'F', '#', '.'][Math.floor(Math.random() * 4)];
+				result += ['M', 'F', '#', ...new Array(15).fill('.')][Math.floor(Math.random() * 18)];
 		}
 		result += '\n';
 	}
